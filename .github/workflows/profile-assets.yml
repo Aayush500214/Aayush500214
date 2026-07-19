@@ -1,0 +1,54 @@
+name: Refresh profile assets
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v6
+
+      - name: Generate light analytics card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&hide_border=true&bg_color=faf8ff&title_color=9400d3&text_color=5c3f62&icon_color=ed80e9"
+          path: assets/generated/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate dark analytics card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&hide_border=true&bg_color=120717&title_color=ed80e9&text_color=d3d3ff&icon_color=d8bfd8"
+          path: assets/generated/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate contribution visualizations
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/generated/contribution-snake.svg?color_snake=#9400d3&color_dots=#faf8ff,#d3d3ff,#d8bfd8,#ed80e9,#9400d3
+            assets/generated/contribution-snake-dark.svg?color_snake=#ed80e9&color_dots=#120717,#4a234f,#9400d3,#d8bfd8,#ed80e9
+
+      - name: Commit refreshed assets
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/generated/*.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: refresh profile assets"
+          git push

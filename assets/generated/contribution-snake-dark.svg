@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" role="img" aria-labelledby="title desc">
+  <title id="title">Initial contribution visualization</title>
+  <desc id="desc">A lightweight contribution grid fallback that GitHub Actions replaces with the live snake visualization.</desc>
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" rx="2" fill="#d8bfd826" />
+    </pattern>
+  </defs>
+  <rect width="1000" height="150" rx="18" fill="#120717" stroke="#d8bfd8" />
+  <rect x="36" y="34" width="932" height="12" fill="url(#grid)" />
+  <path d="M62 92c128-62 247 40 379-2s266-34 429 7" fill="none" stroke="#ed80e9" stroke-width="7" stroke-linecap="round" />
+  <circle cx="870" cy="97" r="9" fill="#d3d3ff" />
+  <text x="36" y="132" fill="#d8bfd8" font-family="Segoe UI,sans-serif" font-size="12">Live contribution animation is generated after the profile workflow runs.</text>
+</svg>

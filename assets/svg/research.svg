@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Brain2Text research publication</title>
+  <desc id="desc">A research card summarizing the 2026 Brain2Text paper, its five-stage GRU and CTC neural speech decoding pipeline, and publication details.</desc>
+  <style>
+    .bg{fill:#120717}.card{fill:#d8bfd812;stroke:#d8bfd866}.pipe{fill:#d8bfd817;stroke:#d8bfd866}.border{stroke:#d8bfd866}.primary{fill:#f9f7ff}.muted{fill:#d3d3ff}.accent{fill:#ed80e9}
+    @media(prefers-color-scheme:light){.bg{fill:#faf8ff}.card{fill:#fff;stroke:#d8bfd8}.pipe{fill:#d3d3ff66;stroke:#d8bfd8}.border{stroke:#d8bfd8}.primary{fill:#211326}.muted{fill:#5c3f62}.accent{fill:#9400d3}}
+    text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  </style>
+  <defs><linearGradient id="accent"><stop stop-color="#9400d3"/><stop offset=".52" stop-color="#ed80e9"/><stop offset="1" stop-color="#d3d3ff"/></linearGradient></defs>
+  <rect class="bg" width="1200" height="330" rx="24" fill="#120717"/><rect class="border" x="1" y="1" width="1198" height="328" rx="23" fill="none" stroke="#d8bfd866"/>
+  <rect x="48" y="44" width="116" height="30" rx="15" fill="#9400d333" stroke="#ed80e980"/><text class="accent" x="106" y="64" text-anchor="middle" fill="#ed80e9" font-size="11" font-weight="700" letter-spacing="1">PUBLICATION</text>
+  <text class="primary" x="48" y="116" fill="#f9f7ff" font-size="27" font-weight="720">Brain2Text</text>
+  <text class="muted" x="48" y="147" fill="#d3d3ff" font-size="16">A reproducible, CPU-deployable framework for neural speech decoding</text>
+  <text class="muted" x="48" y="183" fill="#d3d3ff" font-size="13">IRJIET · Volume 10, Issue 5 · May 2026 · pp. 618–624</text>
+  <text class="accent" x="48" y="208" fill="#ed80e9" font-size="13" font-weight="650">doi:10.47001/IRJIET/2026.105083</text>
+
+  <g transform="translate(48 244)">
+    <rect class="pipe" width="1104" height="50" rx="15" fill="#d8bfd817" stroke="#d8bfd866"/>
+    <g class="primary" fill="#f9f7ff" font-size="12" font-weight="600" text-anchor="middle">
+      <text x="96" y="30">512-D features</text><text x="314" y="30">5-layer GRU</text><text x="532" y="30">CTC decode</text><text x="750" y="30">Phonemes</text><text x="988" y="30">English text</text>
+    </g>
+    <g stroke="url(#accent)" stroke-width="2"><path d="M170 25h65"/><path d="M388 25h65"/><path d="M606 25h65"/><path d="M824 25h65"/></g>
+  </g>
+  <rect class="card" x="846" y="44" width="306" height="164" rx="18" fill="#d8bfd812" stroke="#d8bfd866"/>
+  <text class="muted" x="872" y="78" fill="#d3d3ff" font-size="11" font-weight="700" letter-spacing="1">CONTRIBUTION</text>
+  <text class="primary" x="872" y="109" fill="#f9f7ff" font-size="16" font-weight="650">Deployment engineering</text>
+  <text class="muted" x="872" y="137" fill="#d3d3ff" font-size="13"><tspan x="872">CPU inference · Flask REST API</tspan><tspan x="872" dy="22">React/Vite interface · reproducibility</tspan><tspan x="872" dy="22">browser-accessible demonstration</tspan></text>
+</svg>

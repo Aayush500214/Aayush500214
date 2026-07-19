@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-labelledby="title desc">
+  <title id="title">Profile footer</title><desc id="desc">Build systems, publish learnings, keep shipping.</desc>
+  <defs><linearGradient id="accent"><stop stop-color="#9400d3"/><stop offset=".52" stop-color="#ed80e9"/><stop offset="1" stop-color="#d3d3ff"/></linearGradient></defs>
+  <style>.bg{fill:#120717}.border{stroke:#d8bfd866}.primary{fill:#d3d3ff}@media(prefers-color-scheme:light){.bg{fill:#faf8ff}.border{stroke:#d8bfd8}.primary{fill:#5c3f62}}text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}</style>
+  <rect class="bg" width="1200" height="120" rx="24" fill="#120717"/><rect class="border" x="1" y="1" width="1198" height="118" rx="23" fill="none" stroke="#d8bfd866"/><rect x="48" y="28" width="1104" height="3" rx="1.5" fill="url(#accent)"/>
+  <text class="primary" x="600" y="77" text-anchor="middle" fill="#d3d3ff" font-size="16" font-weight="600" letter-spacing=".7">BUILD SYSTEMS · PUBLISH LEARNINGS · KEEP SHIPPING</text>
+</svg>

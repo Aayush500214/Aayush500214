@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Aayush's engineering timeline</title>
+  <desc id="desc">Timeline from computer science study through Brain2Text research and publication to current machine learning systems work.</desc>
+  <style>
+    .bg{fill:#120717}.border{stroke:#d8bfd866}.primary{fill:#f9f7ff}.muted{fill:#d3d3ff}.line{stroke:#d8bfd866}
+    @media(prefers-color-scheme:light){.bg{fill:#faf8ff}.border{stroke:#d8bfd8}.primary{fill:#211326}.muted{fill:#5c3f62}.line{stroke:#d8bfd8}}
+    text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  </style>
+  <rect class="bg" width="1200" height="260" rx="24" fill="#120717"/><rect class="border" x="1" y="1" width="1198" height="258" rx="23" fill="none" stroke="#d8bfd866"/>
+  <text class="primary" x="48" y="52" fill="#f9f7ff" font-size="24" font-weight="700">Timeline</text>
+  <path class="line" d="M126 124H1074" stroke="#d8bfd866" stroke-width="3"/>
+  <g>
+    <circle cx="126" cy="124" r="11" fill="#9400d3"/><circle cx="430" cy="124" r="11" fill="#ed80e9"/><circle cx="744" cy="124" r="11" fill="#d8bfd8"/><circle cx="1074" cy="124" r="11" fill="#d3d3ff"/>
+    <g class="primary" fill="#f9f7ff" font-size="15" font-weight="650"><text x="126" y="96" text-anchor="middle">2022–2026</text><text x="430" y="96" text-anchor="middle">2025</text><text x="744" y="96" text-anchor="middle">May 2026</text><text x="1074" y="96" text-anchor="middle">Now</text></g>
+    <g class="muted" fill="#d3d3ff" font-size="13" text-anchor="middle"><text x="126" y="158"><tspan x="126">Computer Science</tspan><tspan x="126" dy="20">D Y Patil International University</tspan></text><text x="430" y="158"><tspan x="430">Brain2Text challenge</tspan><tspan x="430" dy="20">end-to-end neural decoder</tspan></text><text x="744" y="158"><tspan x="744">Research published</tspan><tspan x="744" dy="20">IRJIET 10(5), 618–624</tspan></text><text x="1074" y="158"><tspan x="1074">Building ML systems</tspan><tspan x="1074" dy="20">that survive deployment</tspan></text></g>
+  </g>
+</svg>

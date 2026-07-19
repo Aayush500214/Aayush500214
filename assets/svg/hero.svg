@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Aayush Chougule — AI engineer and researcher</title>
+  <desc id="desc">A premium dark and light adaptive banner with an abstract neural network, research and engineering focus tags, and a subtle animated gradient.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop class="bg-a" offset="0" stop-color="#120717"/>
+      <stop class="bg-b" offset="1" stop-color="#25102d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9400d3"/>
+      <stop offset="0.52" stop-color="#ed80e9"/>
+      <stop offset="1" stop-color="#d3d3ff"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#ed80e9" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#ed80e9" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <style>
+    .surface { fill:#d8bfd812; stroke:#d8bfd866; }
+    .border { stroke:#d8bfd866; }
+    .primary { fill:#f9f7ff; }
+    .muted { fill:#d3d3ff; }
+    .network { stroke:#d8bfd84d; }
+    .accent-text { fill:#ed80e9; }
+    @media (prefers-color-scheme: light) {
+      .bg-a { stop-color:#faf8ff; } .bg-b { stop-color:#f3e9f5; }
+      .surface { fill:#ffffffd9; stroke:#d8bfd8; } .border { stroke:#d8bfd8; }
+      .primary { fill:#211326; } .muted { fill:#5c3f62; } .network { stroke:#9400d34d; }
+      .accent-text { fill:#9400d3; }
+    }
+    text { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .orb { animation: drift 9s ease-in-out infinite alternate; transform-origin:center; }
+    .pulse { animation: pulse 3.2s ease-in-out infinite; transform-origin:center; }
+    @keyframes drift { to { transform:translate(28px,-14px) scale(1.08); } }
+    @keyframes pulse { 50% { opacity:.45; transform:scale(.82); } }
+    @media (prefers-reduced-motion: reduce) { .orb,.pulse { animation:none; } }
+  </style>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect class="border" x="1" y="1" width="1198" height="418" rx="27" fill="none" stroke="#d8bfd866"/>
+  <circle class="orb" cx="1020" cy="90" r="180" fill="url(#glow)" filter="url(#soft)"/>
+  <circle cx="1095" cy="355" r="150" fill="#9400d3" opacity=".10" filter="url(#soft)"/>
+
+  <g class="network" fill="none" stroke="#d8bfd84d" stroke-width="1.4">
+    <path d="M825 102 920 68 1008 126 1110 82"/><path d="M825 102 882 190 1008 126 1072 220 1160 177"/>
+    <path d="M882 190 808 282 930 326 1072 220 1145 314"/><path d="M930 326 1042 365 1145 314"/>
+  </g>
+  <g fill="#ed80e9">
+    <circle cx="825" cy="102" r="5"/><circle cx="920" cy="68" r="5"/><circle cx="1008" cy="126" r="7"/>
+    <circle cx="1110" cy="82" r="5"/><circle cx="882" cy="190" r="6"/><circle cx="1072" cy="220" r="6"/>
+    <circle cx="1160" cy="177" r="4"/><circle cx="808" cy="282" r="5"/><circle cx="930" cy="326" r="7"/>
+    <circle cx="1042" cy="365" r="4"/><circle cx="1145" cy="314" r="6"/>
+    <circle class="pulse" cx="1008" cy="126" r="14" fill="none" stroke="#9400d3" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(64 58)">
+    <rect class="surface" width="188" height="34" rx="17" fill="#d8bfd812" stroke="#d8bfd866"/>
+    <circle cx="19" cy="17" r="5" fill="#ed80e9"/>
+    <text class="muted" x="34" y="22" fill="#d3d3ff" font-size="13" font-weight="600" letter-spacing="1.2">AI · ML SYSTEMS</text>
+
+    <text class="primary" x="0" y="114" fill="#f9f7ff" font-size="58" font-weight="720" letter-spacing="-2">Aayush Chougule</text>
+    <rect y="137" width="530" height="5" rx="2.5" fill="url(#accent)"/>
+    <text class="muted" x="0" y="184" fill="#d3d3ff" font-size="23" font-weight="450">I turn research ideas into systems people can run.</text>
+    <text class="muted" x="0" y="219" fill="#d3d3ff" font-size="17">Neural decoding · Reinforcement learning · Computer vision · Product engineering</text>
+
+    <g transform="translate(0 266)">
+      <g><rect class="surface" width="144" height="48" rx="14" fill="#d8bfd812" stroke="#d8bfd866"/><text class="accent-text" x="18" y="21" fill="#ed80e9" font-size="11" font-weight="700" letter-spacing="1">RESEARCH</text><text class="primary" x="18" y="38" fill="#f9f7ff" font-size="13">Brain2Text · 2026</text></g>
+      <g transform="translate(158)"><rect class="surface" width="144" height="48" rx="14" fill="#d8bfd812" stroke="#d8bfd866"/><text class="accent-text" x="18" y="21" fill="#ed80e9" font-size="11" font-weight="700" letter-spacing="1">ENGINEERING</text><text class="primary" x="18" y="38" fill="#f9f7ff" font-size="13">AI → deployment</text></g>
+      <g transform="translate(316)"><rect class="surface" width="144" height="48" rx="14" fill="#d8bfd812" stroke="#d8bfd866"/><text class="accent-text" x="18" y="21" fill="#ed80e9" font-size="11" font-weight="700" letter-spacing="1">PRINCIPLE</text><text class="primary" x="18" y="38" fill="#f9f7ff" font-size="13">Build to learn</text></g>
+    </g>
+  </g>
+</svg>

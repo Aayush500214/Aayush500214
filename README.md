@@ -3,6 +3,38 @@
 </p>
 
 <p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=28&amp;duration=2800&amp;pause=1000&amp;color=9400D3&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;width=520&amp;height=50&amp;lines=AI%2FML+Engineer" alt="Animated title: AI/ML Engineer" />
+  </a>
+</p>
+
+<p align="center">
+  <img alt="Python" title="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="38" />
+  &nbsp;
+  <img alt="PyTorch" title="PyTorch" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" height="38" />
+  &nbsp;
+  <img alt="scikit-learn" title="scikit-learn" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" height="38" />
+  &nbsp;
+  <img alt="OpenCV" title="OpenCV" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" height="38" />
+  &nbsp;
+  <img alt="React" title="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height="38" />
+  &nbsp;
+  <img alt="TypeScript" title="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height="38" />
+  &nbsp;
+  <img alt="NumPy" title="NumPy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" height="38" />
+  &nbsp;
+  <img alt="PostgreSQL" title="PostgreSQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" height="38" />
+  &nbsp;
+  <img alt="Docker" title="Docker" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" height="38" />
+  &nbsp;
+  <img alt="AWS" title="Amazon Web Services" src="https://raw.githubusercontent.com/devicons/devicon/refs/tags/v2.17.0/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="38" />
+  &nbsp;
+  <img alt="Git" title="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" height="38" />
+  &nbsp;
+  <img alt="Linux" title="Linux" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" height="38" />
+</p>
+
+<p align="center">
   <a href="#about">About</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#featured-work">Work</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#research">Research</a>&nbsp;&nbsp;·&nbsp;&nbsp;
